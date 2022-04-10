@@ -1,0 +1,11 @@
+body {
+    background-color: #ED91AA;
+    color: #B057EA;
+}
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+a:visited {
+    color: #E74688 ;
+}
