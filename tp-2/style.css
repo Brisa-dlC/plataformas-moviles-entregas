@@ -18,8 +18,8 @@ h1:hover {
 strong {
     border-bottom: #eee solid 1px;
 }
-strong:nth-of-type(1) {
-    color: #efe;
+p:nth-of-type(1)::first-line {
+color: #efe;
 }
 .the-force {
     background-color: #444;
