@@ -43,8 +43,7 @@ strong:nth-of-type(1) {
 a:visited {
     color: #444;
 }
-a {
-    text-decoration: none;
+a:not([href]) {
     font-style: italic;
 }
 li:nth-of-type(even) {
