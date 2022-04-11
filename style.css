@@ -1,11 +1,25 @@
 body {
-    background-color: #ED91AA;
-    color: #B057EA;
+    background-color: #F8C0DB ;
+    color: #EB87ED ;
+}
+div#container {
+    background-color: #F7D0DF;
+    border: 2px solid #F67D96  ;
+}
+h1 {
+    text-align: center;
 }
 a {
     text-decoration: none;
     font-style: italic;
+    color: #EB87ED  ;
+    font-weight: bold;
 }
 a:visited {
     color: #E74688 ;
+}
+
+#audioplayer {
+    text-align: center;
+    margin-top: 3em;
 }
