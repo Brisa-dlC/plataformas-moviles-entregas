@@ -1,0 +1,83 @@
+@media (min-width: 400px) {
+    p {
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 300px) {
+    h1 {
+        text-align: center;
+    }
+}
+@media (max-width: 200px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (min-width: 200px) and (max-width: 400px) {
+    .container {
+        width: 80%;
+    }
+}
+@media (min-width: 400px) {
+    .container {
+        width: 390px;
+    }
+}
+@media screen {
+    .container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media not print {
+    body {
+        background-color: #ddccaa;
+    }
+}
+@media (color: 0) {
+    #wikipedia-logo {
+        display: none;
+    }
+}
+/*Compatilibilidad de @media: hover en los navegadores
+IE: Las versiones 6-10 y 11 no lo soportan.
+Edge: Las versiones 12-99 y 100 si lo soportan.
+Firefox: Las versiones 2-63 no lo soportan.
+        Las versiones 64-98, 99 y 100-101 lo soportan.
+Chrome: Las versiones 4-37 no lo soportan.
+|       Las versiones 38-99, 100 y 101-103 lo soportan.
+Safari: Las versiones 3.1-8 no lo soportan.
+        Las versiones 9-15.3, 15.4 y TP lo soprtan.
+Opera: Las versiones 10-27 no lo soportan.
+        Las versiones 28-82 y 83 lo soportan.
+Safari on iOS: Las versiones 3.2-8.4 no lo soportan.
+                Las versiones 9-15.3 y 15.4 lo soportan.
+Opera Mini: Todas sus versiones lo soportan
+Android Browser: Las versiones 2.1-4.4.4 no lo soportan.
+                La version 100 lo soporta.
+Opera Mobile: Las versiones 12-12.1 no lo soportan.
+                La version 64 lo soporta.
+Chrome for Android: La version 100 lo soporta.
+Firefox for Android: La version 99 lo soporta.
+Samsung Internet: La version 4 no lo soporta.
+                Las versiones 5-15.0 y 16.0 lo soportan.*/
+@media (hover: hover) {
+    blockquote :hover {
+        background-color: #ccddaa;
+    }
+}
+@media (aspect-ratio: 1/1) {
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 50px), not (min-width:100px) and (color: 0) {
+    *{
+        display:none;
+    }
+}
