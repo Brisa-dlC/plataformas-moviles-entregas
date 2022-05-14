@@ -16,20 +16,31 @@
   </style>
 </head>
 <body>
-    <!--Aqui se añadieron breakpoint adicionales para pantallas de mas de 992px-->
-    <div class="container text-center">
-        <div class="row justify-content-center">
-        <div class="section section-1 col-sm-6">sección 1</div>
+  <div class="container text-center">
+    <div class="row g-0">
+      <div class="col-12 col-sm-6 offset-sm-3 offset-md-2 col-md-8">
+        <div class="section section-1">sección 1</div>
+      </div>
+    <div class="row g-0">
+        <div class="col-12 order-last col-sm-4 order-md-first col-md-3">
+          <div class="section section-2">sección 2</div>
         </div>
-        <div class="row no-gutters">
-        <div class="section section-2 col-sm-4 col-md-3">sección 2</div>
-        <div class="section section-3 col-sm-4 col-md-6">sección 3</div>
-        <div class="section section-4 col-sm-4 col-md-3">sección 4</div>
+        <div class="col-12 col-sm-4 col-md-6">
+          <div class="section section-3">sección 3</div>
         </div>
-        <div class="row no-gutters">
-        <div class="section section-5 col-sm-6 col-md-3 offset-md-6 ">sección 5</div>
-        <div class="section section-6 col-sm-6 col-md-3 order-md-first">sección 6</div>
+        <div class="col-12 order-first col-sm-4 order-md-last col-md-3">
+          <div class="section section-4">sección 4</div>
         </div>
     </div>
+    <div class="row g-0">
+        <div class="col-12 d-none d-sm-block col-sm-6 order-md-last offset-md-6 col-md-3">
+          <div class="section section-5">sección 5</div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="section section-6">sección 6</div>
+        </div>
+    </div>
+    </div>
+  </div>
 </body>
 </html>
