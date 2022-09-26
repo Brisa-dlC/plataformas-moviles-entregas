@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function cargarPagina(){
   }
 
   function tiposPokemon(tipos){
-    tiposPkmn = ""
+    tpsPkmn = ""
     tipos.forEach(function(tipo){
         let typeName = tipo['type']['name'];
-        tiposPkmn = tiposPkmn + typeName.toUpperCase()[0] + typeName.slice(1) + " | "
+        tpsPkmn = tpsPkmn + typeName.toUpperCase()[0] + typeName.slice(1) + " | "
     })
-    tiposPkmn = tiposPkmn.slice(0, -2);
-    return tiposPkmn
+    tpsPkmn = tpsPkmn.slice(0, -2);
+    return tpsPkmn
   }
