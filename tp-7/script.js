@@ -2,13 +2,12 @@ document.addEventListener("DOMContentLoaded", function cargarPagina(){
     obtenerPokemon();
   })
 
-  function obtenerPokemon(limit='limit=151'){
-    fetch('https://pokeapi.co/api/v2/pokemon?'+limit)
-    .then(res => res.json())
-    .then(function(allpokemon){
-        allpokemon.results.forEach(function(pokemon){
-            obtenerDatosPokemon(pokemon);
-        })
+  async function obtenerPokemon(limit='limit=151'){
+    const res = await fetch('https://pokeapi.co/api/v2/pokemon?'+limit);
+    const data = await res.json();
+
+    data.results.forEach(function(pokemon){
+      obtenerDatosPokemon(pokemon);
     })
   }
 
