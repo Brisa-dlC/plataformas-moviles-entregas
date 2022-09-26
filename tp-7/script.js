@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function cargarPagina(){
   function obtenerMasPokemon(){
     let contenedorDatos = document.querySelector('#filaDeDatos')
     contenedorDatos.innerText = ""
-    obtenerPokemon(limit='limit=721')
+    obtenerPokemon(limit='limit=386')
     document.getElementById("botonMas").style.display = "none";  
   }
 
